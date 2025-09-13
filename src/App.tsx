@@ -394,7 +394,7 @@ gsap.to(backgroundTextRef.current, {
         >
           <div className="w-full text-center">
             <h1 
-              className="text-3xl md:text-6xl lg:text-4xl text-white/30 leading-none opacity-0 animate-fade-in-delayed"
+              className="text-3xl md:text-6xl lg:text-4xl text-white/100 leading-none opacity-0 animate-fade-in-delayed"
               style={{ 
                 fontFamily: 'IBM Plex Sans, sans-serif',
                 fontWeight: '100', 
