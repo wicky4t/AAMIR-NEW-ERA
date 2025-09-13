@@ -22,7 +22,7 @@ interface TestimonialBadge {
   scale: number;
 }
  
-const testimonialBadges: TestimonialBadge[] = [
+const testimonialBadges: TestimonialBadge[] = [ 
   { image: "/badges/1.png", position: { top: "30%", left: "24%" }, delay: 1.5, shineDelay: 1.3, shineDuration: 14, scale: 1.0 },
   
   { image: "/badges/4.png", position: { top: "60%", left: "71%" }, delay: 2.8, shineDelay: 0.2, shineDuration: 12, scale: 0.8 }, 
@@ -275,7 +275,7 @@ gsap.to(backgroundTextRef.current, {
         ref={baseRef}
         className={`fixed inset-0 flex items-center justify-center z-20 transition-opacity duration-100`}
         style={{
-          top: window.innerWidth < 768 ? "29%" : "10%",
+          top: window.innerWidth < 768 ? "30%" : "10%",
           left: "0%",
           opacity: showbase ? 1 : 0,
           pointerEvents: showbase ? "auto" : "none",
