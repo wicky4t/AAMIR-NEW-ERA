@@ -151,12 +151,12 @@ function App() {
 
     // New main text animation
     gsap.to(newMainTextRef.current, {
-      y: 300,
+      y: 100,
       opacity: 0,
       scrollTrigger: {
         trigger: portraitRef.current,
         start: "top top",
-        end: "top+=100",
+        end: "top+=3000",
         scrub: 0.5
       }
     }); 
