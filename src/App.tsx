@@ -284,7 +284,7 @@ gsap.to(backgroundTextRef.current, {
         <div className="relative">
           <div
             className="
-              w-[31.5rem] h-[31.5rem]
+              w-[34.65rem] h-[34.65rem]
               sm:w-[540px] sm:h-[540px]
               md:w-[45rem] md:h-[45rem]
               lg:w-[56.25rem] lg:h-[56.25rem]
@@ -316,7 +316,7 @@ gsap.to(backgroundTextRef.current, {
         <div className="relative"> 
           <div
             className="
-              w-[31.5rem] h-[31.5rem] 
+              w-[34.65rem] h-[34.65rem] 
               lg:w-[56.25rem] lg:h-[56.25rem]
               overflow-hidden
             "
@@ -347,7 +347,7 @@ gsap.to(backgroundTextRef.current, {
         <div className="relative">
           <div
             className="
-              w-[31.5rem] h-[31.5rem]
+              w-[34.65rem] h-[34.65rem]
               sm:w-[540px] sm:h-[540px]
               md:w-[45rem] md:h-[45rem]
               lg:w-[56.25rem] lg:h-[56.25rem]
