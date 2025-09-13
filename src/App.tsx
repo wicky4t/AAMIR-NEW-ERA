@@ -159,22 +159,19 @@ function App() {
         end: "top+=3000",
         scrub: 0.5
       }
-    });
-
-    // New scroll indicator animation
-    if (newScrollIndicatorRef.current) {
-      gsap.to(newScrollIndicatorRef.current, {
-        y: -100,
-        opacity: 0,
-        scale: 0.8,
-        scrollTrigger: {
-          trigger: heroRef.current,
-          start: "top top",
-          end: "top+=500",
-          scrub: 0.5,
-        }
-      });
-    }
+    }); 
+    
+ // scroll indicator
+    const heroElements = [newScrollIndicatorRef.current];
+    heroElements.forEach(element => {
+      if (element) {
+        heroTl.to(element, { 
+          y: 50,
+          ease: "power2.out"
+        }, 0);
+      }
+    }); 
+  
 
   // Background text animation
 gsap.to(backgroundTextRef.current, {
