@@ -370,6 +370,7 @@ gsap.to(backgroundTextRef.current, {
           ref={backgroundTextRef}
           className="absolute inset-0 flex items-center justify-center pointer-events-none z-10 hidden md:flex"
           style={{ 
+                            letterSpacing: '0.4em',
             top: '65%',
             transition: isMobile() ? 'none' : 'transform 0.4s ease-out'
           }}
