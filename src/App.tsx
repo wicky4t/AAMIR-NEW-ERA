@@ -155,7 +155,7 @@ function App() {
       opacity: 0,
       scrollTrigger: {
         trigger: portraitRef.current,
-        start: "bottom bottom",
+        start: "top top",
         end: "top+=3000",
         scrub: 0.5
       }
