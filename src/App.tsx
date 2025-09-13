@@ -139,7 +139,7 @@ function App() {
     });
 
     // Batch hero elements animation
-    const heroElements = [portraitRef.current, baseRef.current, eyesRef.current];
+    const heroElements = [portraitRef.current, baseRef.current, eyesRef.current, newScrollIndicatorRef.current];
     heroElements.forEach(element => {
       if (element) {
         heroTl.to(element, { 
@@ -161,16 +161,6 @@ function App() {
       }
     }); 
     
- // scroll indicator
-    const heroElements = [newScrollIndicatorRef.current];
-    heroElements.forEach(element => {
-      if (element) {
-        heroTl.to(element, { 
-          y: 50,
-          ease: "power2.out"
-        }, 0);
-      }
-    }); 
   
 
   // Background text animation
