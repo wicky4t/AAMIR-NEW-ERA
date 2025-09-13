@@ -297,10 +297,10 @@ gsap.to(backgroundTextRef.current, {
         <div className="relative">
           <div
             className="
-              w-[35rem] h-[35rem]
-              sm:w-[600px] sm:h-[600px]
-              md:w-[50rem] md:h-[50rem]
-              lg:w-[62.5rem] lg:h-[62.5rem]
+              w-[31.5rem] h-[31.5rem]
+              sm:w-[540px] sm:h-[540px]
+              md:w-[45rem] md:h-[45rem]
+              lg:w-[56.25rem] lg:h-[56.25rem]
               overflow-hidden
             "
           >
@@ -329,8 +329,8 @@ gsap.to(backgroundTextRef.current, {
         <div className="relative"> 
           <div
             className="
-              w-[35rem] h-[35rem] 
-              lg:w-[62.5rem] lg:h-[62.5rem]
+              w-[31.5rem] h-[31.5rem] 
+              lg:w-[56.25rem] lg:h-[56.25rem]
               overflow-hidden
             "
           >
@@ -360,10 +360,10 @@ gsap.to(backgroundTextRef.current, {
         <div className="relative">
           <div
             className="
-              w-[35rem] h-[35rem]
-              sm:w-[600px] sm:h-[600px]
-              md:w-[50rem] md:h-[50rem]
-              lg:w-[62.5rem] lg:h-[62.5rem]
+              w-[31.5rem] h-[31.5rem]
+              sm:w-[540px] sm:h-[540px]
+              md:w-[45rem] md:h-[45rem]
+              lg:w-[56.25rem] lg:h-[56.25rem]
               overflow-hidden
               grayscale contrast-110 brightness-90
             "
@@ -388,7 +388,7 @@ gsap.to(backgroundTextRef.current, {
           }}
         >
           <div  
-            className={`text-[4rem] md:text-[10rem] lg:text-[20rem] font-bosenAlt text-black/50 select-none leading-none opacity-0 animate-fade-in-delayed`}
+            className={`text-[3.6rem] md:text-[9rem] lg:text-[18rem] font-bosenAlt text-black/50 select-none leading-none opacity-0 animate-fade-in-delayed`}
             style={{
               animationDelay: '0.1s',  
               animationFillMode: 'forwards', 
@@ -410,7 +410,8 @@ gsap.to(backgroundTextRef.current, {
               className="text-3xl md:text-6xl lg:text-4xl text-white/30 leading-none opacity-0 animate-fade-in-delayed"
               style={{ 
                 fontFamily: 'IBM Plex Sans, sans-serif',
-                fontWeight: '100',
+                fontWeight: '100', 
+                fontSize: '90%',
                 letterSpacing: '0.4em',
                 wordSpacing: '4em',
                 animationDelay: '0.8s', 
@@ -443,11 +444,11 @@ gsap.to(backgroundTextRef.current, {
             {/* Animated scroll indicator */}
             <div className="relative">
               {/* Outer ring */}
-              <div className="w-16 h-16 rounded-full border-2 border-white/30 flex items-center justify-center group-hover:border-white/50 transition-all duration-300">
+              <div className="w-14 h-14 rounded-full border-2 border-white/30 flex items-center justify-center group-hover:border-white/50 transition-all duration-300">
                 {/* Inner animated chevron */}
                 <div className="flex flex-col items-center animate-pulse">
-                  <div className="w-0 h-0 border-l-[6px] border-r-[6px] border-t-[8px] border-l-transparent border-r-transparent border-t-white/70 mb-1" />
-                  <div className="w-0 h-0 border-l-[6px] border-r-[6px] border-t-[8px] border-l-transparent border-r-transparent border-t-white/50" />
+                  <div className="w-0 h-0 border-l-[5px] border-r-[5px] border-t-[7px] border-l-transparent border-r-transparent border-t-white/70 mb-1" />
+                  <div className="w-0 h-0 border-l-[5px] border-r-[5px] border-t-[7px] border-l-transparent border-r-transparent border-t-white/50" />
                 </div>
               </div>
               
