@@ -415,7 +415,7 @@ gsap.to(backgroundTextRef.current, {
         {/* New Scroll Indicator */}
         <div 
           ref={newScrollIndicatorRef}
-          className="fixed inset-0 left-[-0.8%] top-[90%] -translate-x-1/2 opacity-0 animate-fade-in-delayed z-40 cursor-pointer"
+          className="fixed inset-0 left-[-0.6%] top-[90%] -translate-x-1/2 opacity-0 animate-fade-in-delayed z-40 cursor-pointer"
           style={{ 
             bottom: '10%', 
             animationDelay: '2.5s', 
