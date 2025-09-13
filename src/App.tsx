@@ -151,7 +151,7 @@ function App() {
 
     // New main text animation
     gsap.to(newMainTextRef.current, {
-      y: 1400,
+      y: 5000,
       opacity: 0,
       scrollTrigger: {
         trigger: portraitRef.current,
