@@ -275,7 +275,7 @@ gsap.to(backgroundTextRef.current, {
         ref={baseRef}
         className={`fixed inset-0 flex items-center justify-center z-20 transition-opacity duration-100`}
         style={{
-          top: "10%",
+          top: window.innerWidth < 768 ? "30%" : "10%",
           left: "0%",
           opacity: showbase ? 1 : 0,
           pointerEvents: showbase ? "auto" : "none",
@@ -307,7 +307,7 @@ gsap.to(backgroundTextRef.current, {
         ref={portraitRef}
         className={`fixed inset-0 flex items-center justify-center z-40 transition-opacity duration-100`}
         style={{
-          top: "10%", 
+          top: window.innerWidth < 768 ? "30%" : "10%", 
           left: "0%",
           opacity: showportrait ? 1 : 0,
           pointerEvents: showportrait ? "auto" : "none",
@@ -337,7 +337,7 @@ gsap.to(backgroundTextRef.current, {
         ref={eyesRef}
         className={`fixed inset-0 flex items-center justify-center z-30 transition-opacity duration-100`}
         style={{
-          top: "10%",
+          top: window.innerWidth < 768 ? "30%" : "10%",
           left: "0%",
           opacity: showeyes ? 1 : 0,
           pointerEvents: showeyes ? "auto" : "none",
