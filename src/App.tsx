@@ -156,7 +156,7 @@ function App() {
       scrollTrigger: {
         trigger: portraitRef.current,
         start: "top top",
-        end: "top+=3000",
+        end: "top+=100",
         scrub: 0.5
       }
     }); 
