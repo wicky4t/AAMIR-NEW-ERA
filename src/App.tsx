@@ -400,7 +400,7 @@ gsap.to(backgroundTextRef.current, {
                 fontWeight: '100', 
                 fontSize: '90%',
                 letterSpacing: '0.4em',
-                wordSpacing: '4em',
+                wordSpacing: '3em',
                 animationDelay: '0.8s', 
                 animationFillMode: 'forwards',
                 textShadow: '0 10px 20px rgba(0,0,0,0.3)'
