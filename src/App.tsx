@@ -155,7 +155,7 @@ function App() {
       opacity: 0,
       scrollTrigger: {
         trigger: heroRef.current,
-        start: "top top",
+        start: "center top",
         end: "top+=3000",
         scrub: 0.5
       }
