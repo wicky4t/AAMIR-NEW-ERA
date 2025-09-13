@@ -275,7 +275,7 @@ gsap.to(backgroundTextRef.current, {
         ref={baseRef}
         className={`fixed inset-0 flex items-center justify-center z-20 transition-opacity duration-100`}
         style={{
-          top: window.innerWidth < 768 ? "29%" : "40%",
+          top: window.innerWidth < 768 ? "29%" : "10%",
           left: "0%",
           opacity: showbase ? 1 : 0,
           pointerEvents: showbase ? "auto" : "none",
