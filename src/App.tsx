@@ -376,7 +376,7 @@ gsap.to(backgroundTextRef.current, {
           }}
         >
           <div  
-            className={`text-[3.6rem] md:text-[9rem] lg:text-[18rem] font-bosenAlt text-white/100 select-none leading-none opacity-0 animate-fade-in-delayed`}
+            className={`text-[3.6rem] md:text-[9rem] lg:text-[18rem] font-bosenAlt text-black/100 select-none leading-none opacity-0 animate-fade-in-delayed`}
             style={{
               animationDelay: '0.1s',  
               animationFillMode: 'forwards', 
