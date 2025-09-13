@@ -398,7 +398,7 @@ gsap.to(backgroundTextRef.current, {
               style={{ 
                 fontFamily: 'IBM Plex Sans, sans-serif',
                 fontWeight: '100', 
-                fontSize: '90%',
+                fontSize: '100%',
                 letterSpacing: '0.4em',
                 wordSpacing: '2em',
                 animationDelay: '0.8s', 
